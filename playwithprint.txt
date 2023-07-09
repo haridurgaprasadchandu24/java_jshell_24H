@@ -1,0 +1,46 @@
+jshell> System.out.println("hello code24H")
+hello code24H
+
+jshell> System.
+   ...> out.
+   ...> println(
+   ...> "code 24H"
+   ...> )
+code 24H
+
+jshell> int i=10
+i ==> 10
+
+jshell> int i=10 ;
+i ==> 10
+
+jshell> int i=10; j=5;
+i ==> 10
+|  Error:
+|  cannot find symbol
+|    symbol:   variable j
+|   j=5;
+|   ^
+
+jshell> int i=10; int j=5;
+i ==> 10
+j ==> 5
+
+jshell> System.out.println(i)
+10
+
+jshell> if(true)
+   ...> {
+   ...>     i=11;
+   ...>     j=6;
+   ...> }
+
+jshell> i
+i ==> 11
+
+jshell> j
+j ==> 6
+
+jshell>
+
+jshell>
